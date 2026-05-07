@@ -125,36 +125,7 @@ p {
 
 If `--para-color` does not exist, the text color becomes black.
 
----
-
-# Example of CSS Variables
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        :root {
-            --primary-color: #4CAF50;
-            --text-color: white;
-            --padding: 10px;
-        }
-
-        button {
-            background-color: var(--primary-color);
-            color: var(--text-color);
-            padding: var(--padding);
-            border: none;
-        }
-    </style>
-</head>
-<body>
-
-    <button>Click Me</button>
-
-</body>
-</html>
-```
+--- 
 
 ---
 
